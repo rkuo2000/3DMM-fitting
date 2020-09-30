@@ -2,14 +2,17 @@
 """
 @author: Yinghao Li
 """
-
-from core import MorphableModel
-from OpenGL.GL import *
-from OpenGL.GLUT import *
-from OpenGL.GLU import *
 import sys
 import numpy as np
 import pickle
+sys.path.append('..')
+
+from core import MorphableModel
+# pip install pyOpenGL pyOpenGL_accelerate
+from OpenGL.GL import *
+from OpenGL.GLUT import *
+from OpenGL.GLU import *
+
 
 ESCAPE = b'\x1b'
 
